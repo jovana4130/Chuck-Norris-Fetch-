@@ -1,0 +1,42 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333330;
+    height: 100vh;
+  }
+  .image {
+    /*width: 90%;*/
+  }
+  
+  #cn-container {
+    padding: 10px;
+    background-color: #ffffff;
+    min-height: 200px;
+    max-width: 600px;
+    border-radius: 12px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  #clickMe {
+    width: 200px;
+    height: 50px;
+    background-color: #333332;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px black;
+  }
+
+  #clickMe:hover {
+    cursor: pointer;
+  }

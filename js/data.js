@@ -1,8 +1,8 @@
 class Joke {
-    constructor (icon_url, value){
+    constructor (icon_url, value) {
         this.icon_url = icon_url;
         this.value = value;
-    }
+    };
 };
 
 export const generateJoke = () => {
@@ -11,6 +11,6 @@ export const generateJoke = () => {
         return res.json();
     })
     .then((rawObject) => {
-        return new Joke (rawObject.icon_url, rawObject.value)
+        return new Joke (rawObject.icon_url, rawObject.value);
     })
 };
