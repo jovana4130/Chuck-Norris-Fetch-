@@ -1,7 +1,7 @@
-const generateButton = document.querySelector('ClickMe');
+const generateButton = document.querySelector('.btn');
 
-import { generateJoke } from './data';
-import { renderJoke } from './ui';
+import { generateJoke } from './data.js';
+import { renderJoke } from './ui.js';
 
 
 

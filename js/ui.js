@@ -1,4 +1,4 @@
-const mainContent = document.querySelector('joke-container');
+const mainContent = document.querySelector('#joke-container');
 
 export const renderJoke = (joke) => {
     let ChuckHtml = `

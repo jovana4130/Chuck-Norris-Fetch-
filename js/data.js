@@ -7,10 +7,10 @@ class Joke {
 
 export const generateJoke = () => {
     return fetch(`https://api.chucknorris.io/jokes/random`)
-    .then((res) => 
-        res.json()
-    )
+    .then((res) => {
+        return res.json()
+    })
     .then((joke) => {
-        new Joke (joke.icon_url, joke.value);
+        return new Joke (joke.icon_url, joke.value);
     });
 };
