@@ -1,8 +1,8 @@
-const mainContent = document.querySelector('#cn-container');
+const mainContent = document.querySelector('joke-container');
 
 export const renderJoke = (joke) => {
-    let html = `
+    let ChuckHtml = `
     <p class='joke-text'>${joke.value}'</p>
     `;
-    mainContent.innerHTML = html;
+    mainContent.innerHTML = ChuckHtml;
 };
